@@ -22,7 +22,7 @@ build-code:
   # Собираем
   - chmod +x ./configure
   - ./configure
-  - make
+  - make /bin/lab
   # Сохраняем в артефактах
   artifacts:
     paths:
