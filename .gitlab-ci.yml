@@ -22,8 +22,6 @@ build-code:
   # Собираем
   - chmod +x ./configure
   - ./configure
-  - chmod +rwx ./build/*
-  - chmod +rwx ./bin/*
   - make
   # Сохраняем в артефактах
   artifacts:

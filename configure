@@ -1,2 +1,6 @@
+ls
 mkdir ./bin
 mkdir ./build
+ls
+chmod +rwx ./build/*
+chmod +rwx ./bin/*
