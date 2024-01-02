@@ -9,7 +9,7 @@ BUILD = build/
 all: $(TARGET)
 
 clean:
-	rm -rf $(TARGET) $(BUILD)*.o
+	rm -rf $(TARGET) $(BUILD)*
 
 $(TARGET): $(BUILD)l1_UserInterface.o $(BUILD)l2_ApplicationLayer.o $(BUILD)l3_DomainLayer.o $(BUILD)l4_InfrastructureLayer.o
 	$(LINK) -o $(TARGET) $(BUILD)l1_UserInterface.o $(BUILD)l2_ApplicationLayer.o $(BUILD)l3_DomainLayer.o $(BUILD)l4_InfrastructureLayer.o
