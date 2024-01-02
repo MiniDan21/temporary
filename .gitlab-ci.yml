@@ -22,7 +22,8 @@ build-code:
   # Собираем
   - chmod +x ./configure
   - ./configure
-  - make /bin/lab
+  - make clena
+  - make
   # Сохраняем в артефактах
   artifacts:
     paths:
