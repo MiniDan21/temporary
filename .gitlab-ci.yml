@@ -22,7 +22,6 @@ build-code:
   # Собираем
   - chmod +x ./configure
   - ./configure
-  - make clean
   - make
   # Сохраняем в артефактах
   artifacts:
