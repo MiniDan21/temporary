@@ -1,0 +1,11 @@
+/*
+!doc/
+!src/
+!test/
+!include
+!.gitlab-ci.yml
+!configure
+!documentation
+!Makefile
+!README.md
+!.gitignore
