@@ -1,2 +1,2 @@
-mkdir bin
-mkdir build
+mkdir ./bin
+mkdir ./build

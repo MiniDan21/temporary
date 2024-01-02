@@ -1,6 +1,3 @@
-/* Программа-заготовка для домашнего задания
-*/
-
 #include <iostream>
 #include <string>
 #include <cassert>
